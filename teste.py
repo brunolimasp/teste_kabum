@@ -1,27 +1,15 @@
 
+from decimal import *
+
+# variavel = Decimal((10*4)/20)
+
+# print(variavel)
 
 
+# soma = (10*4)/20
+# print "%.2f" % (soma)
 
-class Frete:
-  def __init__(self,peso,altura,largura):
+num = 49
+x = Decimal("%.2f" % num)
 
-    self.peso = peso
-    self.altura = altura
-    self.largura = largura
-
-
-
-  def frete_ninja(self):
-    print (peso)
-    return ('ALO')
-  
-  def frete_ninja(self):
-    return ('ALO')
-
-  def frete(self):
-
-    print(f'Tou aqui {self.peso}')
-
-
-
-Frete(666, 'dwawdadwdwa', 'fsfdfsf').frete()
+print(x)
