@@ -1,15 +1,8 @@
+from decimal import Decimal
 
-from decimal import *
-
-# variavel = Decimal((10*4)/20)
-
-# print(variavel)
+soma = (format((10*4)/20, '.2f'))
+print (f'R$ {soma}')
 
 
-# soma = (10*4)/20
-# print "%.2f" % (soma)
-
-num = 49
-x = Decimal("%.2f" % num)
-
-print(x)
+print(type(soma))
+print(soma)
