@@ -11,9 +11,9 @@ def api_frete():
   data = request.get_json()
 
   dimensao = data['dimensao']
-  altura = float(dimensao['altura'])
-  largura = float(dimensao['largura'])
-  peso = float(data['peso'])
+  altura = dimensao['altura']
+  largura = dimensao['largura']
+  peso = data['peso']
 
   resultado = Calculo_frete(altura,largura,peso).frete()
 

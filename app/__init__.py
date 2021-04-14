@@ -10,7 +10,6 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 
 
 # ---------------------------CHAMADA DOS CONTROLLERS------------------------------
-from app.controllers.www import index
 from app.controllers.api import api_frete
 
 
