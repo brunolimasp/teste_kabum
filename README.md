@@ -5,7 +5,7 @@
 
 # SOBRE
 
-Esta API foi desenvolvida na linguagem Python utilizando o framework Flask onde é possível realizar consultas do valor de fretes através do envio de requisições utilizando do método POST
+Esta API foi desenvolvida na linguagem Python utilizando o framework Flask onde é possível realizar consultas nos valores de frete através do envio de requisições utilizando do método POST
 
 # EXEMPLO
 No exemplo abaixo mostra o envio das informações em formato JSON sendo enviadas para a API através da URL :
