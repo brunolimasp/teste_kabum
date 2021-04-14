@@ -144,7 +144,7 @@ Objeto atende as seguintes especificações e exigencias:
     - Largura máxima: 125 cm
     - Prazo para entrega: 4 dias
 
-Caso alguma validação não seja atendida o output não irá retornar resultado conforme o exemplo abaixo:
+Caso as duas validação não sejam atendidas o output não irá retornar resultado conforme o exemplo abaixo:
 
 ### output
 
