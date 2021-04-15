@@ -5,6 +5,7 @@ from app.controllers.api.calculo import Calculo_frete
 
 
 @app.route("/api/frete", methods=['POST'])
+@cross_origin()
 def api_frete():
 
   # COLEÇÂO DE DADOS
