@@ -58,6 +58,7 @@ Toda a regra de negócio foi desenvolvida no arquivo ``calculo.py`` seguindo o c
 ``api_frete.py``
 ```python
 @app.route("/api/frete", methods=['POST'])
+@cross_origin()
 def api_frete():
 
   # COLEÇÂO DE DADOS
